@@ -25,9 +25,9 @@ public class Swagger2Config {
 	}
 	
 	private ApiInfo apiEndpointsInfo() {
-		return new ApiInfoBuilder().title("Tedeso")
+		return new ApiInfoBuilder().title("My Title")
 				.description("Sample API Documentation POC")
-				.contact(new Contact("Ravi", "http://tedeso.com", "tedeso@siemens.com"))
+				.contact(new Contact("Ravi", "http://ravi.com", "ravi@gmail.com"))
 				.license("Apache 2.0")
 				.licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
 	            .version("1.0.0")
